@@ -17,9 +17,9 @@ public class metodos {
         return texto.toUpperCase();
     }
     
-    public String contarCoincidencias(String texto, String frase){
+    public int contarCoincidencias(String texto, String frase){
         
-        return String.valueOf(texto.compareTo(frase));
+        return texto.compareTo(frase);
     }
     
 }
